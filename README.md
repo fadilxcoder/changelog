@@ -2,6 +2,7 @@
 
 - [How to Automatically Generate Changelog for your node.js projects](https://dev.to/brayanarrieta/how-to-automatically-generate-changelog-for-your-node-js-projects-43jk)
 - [Conventional Changelog Configuration Spec (v2.1.0)](https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.2.0/README.md)
+- [Automatically generate and release a changelog using Node.js](https://blog.logrocket.com/automatically-generate-and-release-a-changelog-with-node-js/)
 - [Examples](https://www.conventionalcommits.org/en/v1.0.0/#examples)
 - Add `.versionrc.json`
 
@@ -56,3 +57,5 @@ fix(app): Updating readme
 
 Updating readme documentation
 ```
+
+- Generate **changelog** with `npm run release`
