@@ -41,7 +41,18 @@
 - - Based on current configs, commit message will be :
 
 ```
+feat(app): Initialize project
+
+Setting up project structure
+
+Repo structure - dependencies, classes, modules, apps, node_modules
+
+Reviewed-by: ABX
+Refs: #123
 ```
 
 ```
+fix(app): Updating readme
+
+Updating readme documentation
 ```
