@@ -6,6 +6,14 @@ All notable changes to this project will be documented in this file. Dates are d
 
 ### [0.1.0]()
 
+### Breaking Changes
+
+- feat(app): Core refacto of system with CI jobs [`e03db3c`](https://github.com/ifx-code/changelog/commit/e03db3cd8809440f8e7bcd9dcb3ec66b3fed1949)
+```
+feat(app): Core refacto of system with CI jobs
+
+BREAKING CHANGE: Does not support file system 96
+```
 
 
 ### New Features

@@ -9,7 +9,7 @@ All notable changes to this project will be documented in this file. Dates are d
     ### [{{title}}]({{href}})
 
     {{! List commits with `Breaking change: ` somewhere in the message }}
-    {{#commit-list commits heading='### Breaking Changes' message='Breaking change:'}}
+    {{#commit-list commits heading='### Breaking Changes' message='BREAKING CHANGE:'}}
         - {{subject}} [`{{shorthash}}`]({{href}})
         ```
         {{message}}
@@ -17,21 +17,21 @@ All notable changes to this project will be documented in this file. Dates are d
     {{/commit-list}}
 
 
-    {{#commit-list commits heading='### New Features' message='^feat' exclude='Breaking change:'}}
+    {{#commit-list commits heading='### New Features' message='^feat' exclude='BREAKING CHANGE:'}}
         - {{subject}} [`{{shorthash}}`]({{href}})
         ```
         {{message}}
         ```
     {{/commit-list}}
 
-    {{#commit-list commits heading='### Bugfix' message='^fix' exclude='Breaking change:'}}
+    {{#commit-list commits heading='### Bugfix' message='^fix' exclude='BREAKING CHANGE:'}}
         - {{subject}} [`{{shorthash}}`]({{href}})
         ```
         {{message}}
         ```
     {{/commit-list}}
 
-    {{#commit-list commits heading='### Chore' message='^chore' exclude='Breaking change:'}}
+    {{#commit-list commits heading='### Chore' message='^chore' exclude='BREAKING CHANGE:'}}
         - {{subject}} [`{{shorthash}}`]({{href}})
         ```
         {{message}}
