@@ -4,7 +4,7 @@ on:
     branches:
       - master
 jobs:
-  test-api:
+  generate-my-changelog:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -22,11 +22,11 @@ jobs:
         run: |
           npm run changelog 0.1.0
 
-      - name: Save - Commit and push
-        run: |-
-          git config user.name "Automated"
-          git config user.email "actions@users.noreply.github.com"
-          git add -A
-          timestamp=$(date -u)
-          git commit -m "changelog-${timestamp}" || exit 0
-          git push
+      # - name: Save - Commit and push
+      #   run: |-
+      #     git config user.name "Automated"
+      #     git config user.email "actions@users.noreply.github.com"
+      #     git add -A
+      #     timestamp=$(date -u)
+      #     git commit -m "changelog-${timestamp}" || exit 0
+      #     git push
