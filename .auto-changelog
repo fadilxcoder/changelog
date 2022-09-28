@@ -1,0 +1,6 @@
+{
+    "output": "CHANGELOG.md",
+    "template": "./template.layout.hbs",
+    "unreleased": true,
+    "commitLimit": false
+}

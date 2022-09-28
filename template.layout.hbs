@@ -1,0 +1,41 @@
+### Changelog
+
+All notable changes to this project will be documented in this file. Dates are displayed in UTC.
+
+{{#each releases}}
+
+    {{! log this }}
+
+    ### [{{title}}]({{href}})
+
+    {{! List commits with `Breaking change: ` somewhere in the message }}
+    {{#commit-list commits heading='### Breaking Changes' message='Breaking change:'}}
+        - {{subject}} [`{{shorthash}}`]({{href}})
+        ```
+        {{message}}
+        ```
+    {{/commit-list}}
+
+
+    {{#commit-list commits heading='### New Features' message='^feat' exclude='Breaking change:'}}
+        - {{subject}} [`{{shorthash}}`]({{href}})
+        ```
+        {{message}}
+        ```
+    {{/commit-list}}
+
+    {{#commit-list commits heading='### Bugfix' message='^fix' exclude='Breaking change:'}}
+        - {{subject}} [`{{shorthash}}`]({{href}})
+        ```
+        {{message}}
+        ```
+    {{/commit-list}}
+
+    {{#commit-list commits heading='### Chore' message='^chore' exclude='Breaking change:'}}
+        - {{subject}} [`{{shorthash}}`]({{href}})
+        ```
+        {{message}}
+        ```
+    {{/commit-list}}
+
+{{/each}}

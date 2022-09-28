@@ -1,0 +1,32 @@
+name: Changelog Generator
+on:
+  push:
+    branches:
+      - master
+jobs:
+  test-api:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "17.x"
+
+      - name: Install auto-changelog
+        run: |
+          npm i auto-changelog
+
+      - name: Run auto-changelog to generate changelog
+        run: |
+          npm run changelog 0.1.0
+
+      - name: Save - Commit and push
+        run: |-
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "changelog-${timestamp}" || exit 0
+          git push

@@ -1,61 +1,33 @@
 # Notes
 
-- [How to Automatically Generate Changelog for your node.js projects](https://dev.to/brayanarrieta/how-to-automatically-generate-changelog-for-your-node-js-projects-43jk)
+- [keep a changelog](https://keepachangelog.com/en/1.0.0/)
 - [Conventional Changelog Configuration Spec (v2.1.0)](https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.2.0/README.md)
-- [Automatically generate and release a changelog using Node.js](https://blog.logrocket.com/automatically-generate-and-release-a-changelog-with-node-js/)
 - [Examples](https://www.conventionalcommits.org/en/v1.0.0/#examples)
-- Add `.versionrc.json`
+- [GIT auto-changelog](https://github.com/CookPete/auto-changelog)
+- Add `.auto-changelog`
 
 ```
-{
-    "types": [
-        {"type": "feat", "section": "Features"},
-        {"type": "fix", "section": "Bug Fixes"},
-        {"type": "chore", "hidden": true},
-        {"type": "docs", "hidden": true},
-        {"type": "style", "hidden": true},
-        {"type": "refactor", "hidden": true},
-        {"type": "perf", "hidden": true},
-        {"type": "test", "hidden": true}
-    ],
-    "commitUrlFormat": "https://github.com/ifx-code/changelog/commits{{hash}}",
-    "compareUrlFormat": "https://github.com/ifx-code/changelog/compare/{{previousTag}}...{{currentTag}}"
-}
+...
+Usage: auto-changelog [options]
+
+Options:
+
+  -o, --output [file]                 # output file, default: CHANGELOG.md
+  -c, --config [file]                 # config file location, default: .auto-changelog
+  -t, --template [template]           # specify template to use [compact, keepachangelog, json], default: compact
+  -r, --remote [remote]               # specify git remote to use for links, default: origin
+  -p, --package                       # use version from package.json as latest release
+  -v, --latest-version [version]      # use specified version as latest release
+  -u, --unreleased                    # include section for unreleased changes
+  -l, --commit-limit [count]          # number of commits to display per release, default: 3
+  -b, --backfill-limit [count]        # number of commits to backfill empty releases with, default: 3
+...
+
 ```
 
-- Install `npm install --save-dev standard-version`
+- Install `npm i auto-changelog`
 - Add to `package.json`
-
-```
-"scripts": {
-...
-    "release": "standard-version",
-    "release:minor": "standard-version --release-as minor",
-    "release:patch": "standard-version --release-as patch",
-    "release:major": "standard-version --release-as major"
-...
-```
-
-- Git commands : 
-- - `git add ....`
-- - `git commit`
-- - Based on current configs, commit message will be :
-
-```
-feat(app): Initialize project
-
-Setting up project structure
-
-Repo structure - dependencies, classes, modules, apps, node_modules
-
-Reviewed-by: ABX
-Refs: #123
-```
-
-```
-fix(app): Updating readme
-
-Updating readme documentation
-```
-
-- Generate **changelog** with `npm run release`
+- RUN 
+- - `npm run changelog`
+- - `./node_modules/.bin/auto-changelog --latest-version 0.1.0`
+- - `npm run changelog 0.1.1`
