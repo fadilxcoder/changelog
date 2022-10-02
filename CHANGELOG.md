@@ -2,11 +2,11 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
-### [v0.1.1]()
+### [v0.1.2]()
 
-### Bugfix
+### New Features
 
-- fix(app): Debug CI changelog generation #3 [`d8e79dc`](https://github.com/ifx-code/changelog/commit/d8e79dc5100217d1a28742c487a39075e498a397)
+- feat(app): Debug CI changelog generation #4 [`e4c448c`](https://github.com/ifx-code/changelog/commit/e4c448c2a43e21645cbd5235bd304bbe9adf95a0)
 ```
-fix(app): Debug CI changelog generation #3
+feat(app): Debug CI changelog generation #4
 ```
