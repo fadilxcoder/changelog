@@ -32,3 +32,16 @@ Options:
 - - `npm run changelog`
 - - `./node_modules/.bin/auto-changelog --latest-version 0.1.0`
 - - `npm run changelog 0.1.1`
+
+## Github Action
+
+- Start tag version on github : `v0.0.1`, then increment it on future tag releases
+- In github CI, add `fetch-depth: 0` - fetch the entire history (default is 1)
+
+```
+runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+```

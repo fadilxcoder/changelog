@@ -29,5 +29,6 @@ jobs:
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
           git add -A
-          git commit -m "changelog.md" || exit 0
+          timestamp=$(date -u)
+          git commit -m "changelog-${timestamp}" || exit 0
           git push
