@@ -30,6 +30,10 @@ Repo structure - dependencies, classes, modules, apps, node_modules
 Reviewed-by: ABX
 Refs: #123
 ```
+- feat(app): Remove CI auto commit [`4f15e65`](https://github.com/ifx-code/changelog/commit/4f15e65511a19bed7ed675c70433e8cd2972fe02)
+```
+feat(app): Remove CI auto commit
+```
 
 ### Bugfix
 
