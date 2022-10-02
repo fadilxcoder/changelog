@@ -4,6 +4,7 @@
 - [Conventional Changelog Configuration Spec (v2.1.0)](https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.2.0/README.md)
 - [Examples](https://www.conventionalcommits.org/en/v1.0.0/#examples)
 - [GIT auto-changelog](https://github.com/CookPete/auto-changelog)
+- Example of generated changelog locally - [CHANGELOG.md](https://github.com/ifx-code/changelog/blob/4f15e65511a19bed7ed675c70433e8cd2972fe02/CHANGELOG.md)
 - Add `.auto-changelog`
 
 ```
