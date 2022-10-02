@@ -2,11 +2,11 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
-### [v0.0.2]()
+### [v0.0.3]()
 
 ### Bugfix
 
-- fix(app): CI debugging [`b1914d2`](https://github.com/ifx-code/changelog/commit/b1914d2d12c82f9fb38046dd5a4f42a120186dce)
+- fix(app): CI debugging #2 [`0f54ffd`](https://github.com/ifx-code/changelog/commit/0f54ffd42cbc493f4f6b3ed3cbd197497c6df53d)
 ```
-fix(app): CI debugging
+fix(app): CI debugging #2
 ```
