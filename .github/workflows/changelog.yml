@@ -21,9 +21,9 @@ jobs:
       - name: Run auto-changelog to generate changelog
         run: |
           npm run changelog v0.0.3
-          git tag -n
           git fetch --tags --force
           git tag -n
+          git log
 
       - name: Save - Commit and push
         run: |-
