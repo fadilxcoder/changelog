@@ -20,7 +20,7 @@ jobs:
 
       - name: Run auto-changelog to generate changelog
         run: |
-          npm run changelog v0.0.1
+          npm run changelog v0.0.2
 
       - name: Save - Commit and push
         run: |-
