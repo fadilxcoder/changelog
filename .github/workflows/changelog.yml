@@ -33,4 +33,4 @@ jobs:
           git add -A
           timestamp=$(date -u)
           git commit -m "changelog-${timestamp}" || exit 0
-          git push
+          git push origin master
