@@ -32,6 +32,33 @@ fix(app): CI debugging #2
 fix(app): CI debugging
 ```
 
+### Pipeline
+
+- ci(pipeline): branch origin push [`01a07d2`](https://github.com/fadilxcoder/changelog/commit/01a07d2eabbb5a582a4ea9b809dc30631452fe86)
+```
+ci(pipeline): branch origin push
+```
+- ci(pipeline): update changelog on tag create [`372edf7`](https://github.com/fadilxcoder/changelog/commit/372edf7ecbb7ab67a6af7ff1f9a43b066db48295)
+```
+ci(pipeline): update changelog on tag create
+```
+- ci(pipeline): changelog template [`410a71d`](https://github.com/fadilxcoder/changelog/commit/410a71dde5c9bbde800538edd6fa5c0cb18d476c)
+```
+ci(pipeline): changelog template
+```
+- ci(pipeline): github tag variable [`6cd7767`](https://github.com/fadilxcoder/changelog/commit/6cd7767b52b6d0e3765b2a930dfc4bd4a672c482)
+```
+ci(pipeline): github tag variable
+```
+- ci(pipeline): HEAD:master [`d4dbab1`](https://github.com/fadilxcoder/changelog/commit/d4dbab1d8da697bb5423ec1ec2ff773628521e43)
+```
+ci(pipeline): HEAD:master
+```
+- ci(pipeline): remote branch name [`a01f6a6`](https://github.com/fadilxcoder/changelog/commit/a01f6a6c1475a929c55bea811c8c882050b98790)
+```
+ci(pipeline): remote branch name
+```
+
 ### [v0.0.2](https://github.com/fadilxcoder/changelog/compare/v0.0.1...v0.0.2)
 
 ### Bugfix
