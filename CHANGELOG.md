@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
-### [v0.1.4](https://github.com/fadilxcoder/changelog/compare/v0.1.4...v0.1.4)
+### [v0.1.5](https://github.com/fadilxcoder/changelog/compare/v0.1.5...v0.1.5)
+
+### [v0.1.5](https://github.com/fadilxcoder/changelog/compare/v0.1.4...v0.1.5)
+
+### Pipeline
+
+- ci(ga): remove conditional statement [`f22e1ae`](https://github.com/fadilxcoder/changelog/commit/f22e1aefc1dd1a841ce508b8499dd1144670ebe5)
 
 ### [v0.1.4](https://github.com/fadilxcoder/changelog/compare/v0.1.3...v0.1.4)
 
