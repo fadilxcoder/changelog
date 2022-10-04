@@ -26,9 +26,9 @@ jobs:
 
       - name: Run auto-changelog to generate changelog
         run: |
-          echo $RELEASE_VERSION
-          echo ${{ env.RELEASE_VERSION }}
           npm run changelog $RELEASE_VERSION
+        #  echo $RELEASE_VERSION
+        #  echo ${{ env.RELEASE_VERSION }}
 
       - name: Save - Commit and push
         run: |-
