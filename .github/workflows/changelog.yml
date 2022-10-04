@@ -24,6 +24,7 @@ jobs:
 
       - name: Run auto-changelog to generate changelog
         run: |
+          echo $GITHUB_REF_TYPE
           npm run changelog $GITHUB_REF_TYPE
 
       - name: Save - Commit and push
