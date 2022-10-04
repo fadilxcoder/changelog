@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
-### [vrefs/tags/v0.1.0](https://github.com/fadilxcoder/changelog/compare/v0.1.0...vrefs/tags/v0.1.0)
+### [vtag](https://github.com/fadilxcoder/changelog/compare/v0.1.0...vtag)
 
 ### [v0.1.0](https://github.com/fadilxcoder/changelog/compare/v0.0.2...v0.1.0)
 
