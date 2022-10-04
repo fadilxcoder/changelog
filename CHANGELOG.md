@@ -2,9 +2,9 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
-### [vtag](https://github.com/fadilxcoder/changelog/compare/v0.1.0...vtag)
+### [v0.1.1](https://github.com/fadilxcoder/changelog/compare/v0.1.1...v0.1.1)
 
-### [v0.1.0](https://github.com/fadilxcoder/changelog/compare/v0.0.2...v0.1.0)
+### [v0.1.1](https://github.com/fadilxcoder/changelog/compare/v0.0.2...v0.1.1)
 
 ### New Features
 
@@ -45,6 +45,10 @@ ci(pipeline): update changelog on tag create
 - ci(pipeline): changelog template [`410a71d`](https://github.com/fadilxcoder/changelog/commit/410a71dde5c9bbde800538edd6fa5c0cb18d476c)
 ```
 ci(pipeline): changelog template
+```
+- ci(pipeline): regex tag [`ae6866c`](https://github.com/fadilxcoder/changelog/commit/ae6866c62f41c6ed2e51c852ac4fe972c00083b0)
+```
+ci(pipeline): regex tag
 ```
 - ci(pipeline): github tag variable [`6cd7767`](https://github.com/fadilxcoder/changelog/commit/6cd7767b52b6d0e3765b2a930dfc4bd4a672c482)
 ```
