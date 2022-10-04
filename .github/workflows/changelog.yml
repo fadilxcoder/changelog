@@ -27,14 +27,15 @@ jobs:
       - name: Run auto-changelog to generate changelog
         run: |
           npm run changelog $RELEASE_VERSION
+          git tag -n
         #  echo $RELEASE_VERSION
         #  echo ${{ env.RELEASE_VERSION }}
 
-      - name: Save - Commit and push
-        run: |-
-          git config user.name "Automated"
-          git config user.email "actions@users.noreply.github.com"
-          git add -A
-          timestamp=$(date -u)
-          git commit -m "changelog-${timestamp}" || exit 0
-          git push origin HEAD:master
+      # - name: Save - Commit and push
+      #   run: |-
+      #     git config user.name "Automated"
+      #     git config user.email "actions@users.noreply.github.com"
+      #     git add -A
+      #     timestamp=$(date -u)
+      #     git commit -m "changelog-${timestamp}" || exit 0
+      #     git push origin HEAD:master
