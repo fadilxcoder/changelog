@@ -2,7 +2,8 @@
   "name": "changelog-generator",
   "description": "Testing changelog generator",
   "scripts": {
-    "changelog": "auto-changelog --latest-version"
+    "changelog": "auto-changelog --latest-version",
+    "changelog-tag": "auto-changelog"
   },
   "author": "fadil@xcoder.dvlpr",
   "license": "ISC",

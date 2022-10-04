@@ -26,7 +26,8 @@ jobs:
 
       - name: Run auto-changelog to generate changelog
         run: |
-          npm run changelog $RELEASE_VERSION
+          npm run changelog-tag
+        #  npm run changelog $RELEASE_VERSION
         #  git tag -n
         #  echo $RELEASE_VERSION
         #  echo ${{ env.RELEASE_VERSION }}
