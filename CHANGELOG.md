@@ -2,7 +2,14 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
-### [v0.1.5](https://github.com/fadilxcoder/changelog/compare/v0.1.5...v0.1.5)
+### [v0.1.6](https://github.com/fadilxcoder/changelog/compare/v0.1.6...v0.1.6)
+
+### [v0.1.6](https://github.com/fadilxcoder/changelog/compare/v0.1.5...v0.1.6)
+
+### Pipeline
+
+- ci(ga): on create tag [`757d86e`](https://github.com/fadilxcoder/changelog/commit/757d86e082c39eed3d7821c208296766ceb4430e)
+- ci(ga): on push [`9fba7e7`](https://github.com/fadilxcoder/changelog/commit/9fba7e73d04a6631a6413bdce4b2981be527f2b5)
 
 ### [v0.1.5](https://github.com/fadilxcoder/changelog/compare/v0.1.4...v0.1.5)
 
